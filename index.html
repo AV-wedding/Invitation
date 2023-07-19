@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Invitation</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+        <div class="mainBlock">
+            <div class="mainText">
+                <h1>Приглашение</h1>
+            </div>
+
+            <style>
+                video {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border: white 1px solid;
+                    border-radius: 425px 425px 0 0;
+                    -moz-border-radius: 425px 425px 0 0;
+                    -webkit-border-radius: 425px 425px 0 0;
+                }
+            </style>
+
+            <div class="mainVideo">
+                <video  muted="muted" autoplay="autoplay"  playsinline="playsinline" loop poster="./image/IMG_2737.JPG">
+                    <source src="./video/IMG_2457_2.mp4" type='video/mp4' >
+                    Тут должно быть красивое видео
+
+                </video>
+            </div>
+
+            <div class="event-description">
+                <p>
+                    Дорогие друзья и родные<br>
+                    Осенью состоится очень важное и радостное для нас событие — наша свадьба.<br>
+                    Этот день невозможно представить без самых близких для нас людей, мы бы очень хотели,
+                    чтобы вы провели его вместе с нами.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="event-details">
+            <div class="photo-square">
+                <img src="./image/IMG_0669.ARW" alt="Photo 1" style="width: 100%;
+    height: 100%;
+    object-fit: cover; ">
+            </div>
+            <div class="square" style="font-size: 44px">
+                <h2 style="color: black">Когда?</h2>
+
+                <br><a target="_blank"   style="cursor: default;
+    text-decoration: none; color: black; font-size: 60px"
+                       href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MzZoNm9xN2NuanA4bDFyZmtocTFvNTVvZnUgZmFtaWx5MDk0MjYzMTA0NzAzOTY5MjU3MThAZw&amp;tmsrc=family09426310470396925718%40group.calendar.google.com">
+                06.10.2023</a>
+            </div>
+            <div class="square">
+                <h2 style="color: black">Где?</h2>
+                <a target="_blank"  href="https://yandex.ru/maps/org/forself/200459571947/?ll=43.996460%2C56.328411&z=14" style="cursor: default;
+    text-decoration: none; color: black;font-size: 38px">Лофт-площадка FORSELF, Нижний Новгород, Зеленский съезд, 4</a>
+            </div>
+            <div class="photo-square">
+                <img src="./image/IMG_0516.JPG" alt="Photo 2" style="width: 100%;
+    height: 100%;
+    object-fit: cover;">
+            </div>
+        </div>
+
+    <div class="event-schedule">
+        <h2>Встреча гостей 18:00</h2>
+        <h2>В программе:</h2>
+        <ul>
+            <li>Свадебный фуршет</li>
+            <li>Фотосъемка в студии FORSELF</li>
+            <li>Выступление Funkeys MusicBand</li>
+        </ul>
+    </div>
+
+    <div class="dress-code">
+        <h2 style="color: black">О ДРЕСС-КОДЕ</h2>
+        <hr>
+        <p>
+            Мы будем очень благодарны, если вы поддержите стиль и цвет нашей свадьбы в своих нарядах<br>
+            Любые оттенки бежевого и коричневого - отлично!<br>
+            Белый и черный - просто потрясающе!
+        </p>
+        <img src="./image/IMG_2511.png" style="width: inherit" alt="">
+
+        <hr>
+        <p>
+            Девушки выбирают коктейльные платья, такие как будто они собрались на самую крутую вечеринку.<br>
+            Или выбирают классику в стильном исполнении.<br>
+            Мужчины - костюмы, рубашки, туфли в цветовой гамме мероприятия.
+        </p>
+
+        <img src="./image/IMG_2489.png" style="width: inherit" alt="">
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+    <div class="info-block">
+        <h2>ОРГАНИЗАЦИОННЫЕ ВОПРОСЫ</h2>
+        <hr>
+        <p>
+            В день свадьбы или по любым вопросам можно обращаться к нашему свадебному организатору Дарье <a href="tel:+79202992967" style="cursor: default;
+    text-decoration: none; color: #dddddd;font-size: 44px">(+79202992967)</a>
+        </p>
+        <hr>
+    </div>
+
+    <div class="info-block">
+        <h2>ПОЖАЛУЙСТА, ПОДТВЕРДИТЕ ВАШЕ ПРИСУТСТВИЕ ДО 01.09.2023</h2>
+        <p>(нам очень важно знать точное количество гостей, оно сильно влияет на организацию нашего праздника)</p>
+    </div>
+
+
+        <style>
+
+            input[type="checkbox"] {
+                display: none;
+            }
+            .question {
+                margin-bottom: 25px;
+                border-radius: 25px;
+            }
+            .question label {
+                cursor: pointer;
+                padding: 10px;
+            }
+
+            .quest {
+                margin-bottom: 25px;
+                border-radius: 25px;
+            }
+
+            .quest label {
+                cursor: pointer;
+                padding: 10px;
+            }
+
+        </style>
+
+<form id="survey-form">
+    <label for="name"><h1 style="font-family: Alexander ,serif;">Ваше имя:</h1></label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <h1>Присутствие:</h1>
+    <div class="quest" id="quest1">
+    <label for="presence1" style="font-size: 100px"><input type="radio" id="presence1" name="presence" value="Я приду" required> Я приду</label>
+    </div>
+        <div class="quest" id="quest2"> <label for="presence2" style="font-size: 100px"><input type="radio" id="presence2" name="presence" value="Прийти не получится"> Прийти не получится</label>
+        </div>
+            <div class="quest" id="quest3"><label for="presence3" style="font-size: 100px"><input type="radio" id="presence3" name="presence" value="Мне нужно больше времени, чтобы дать ответ"> Мне нужно больше времени, чтобы дать ответ</label>
+            </div>
+    <h1>Предпочтения по напиткам (можно выбрать несколько вариантов):</h1>
+    <div class="question">
+    <label for="option1" style="font-size: 100px"><input type="checkbox" id="option1" name="options" value="Шампанское"> Шампанское</label>
+    </div>
+    <div class="question">
+        <label for="option2" style="font-size: 100px"><input type="checkbox" id="option2" name="options" value="Белое вино"> Белое вино</label>
+</div>
+    <div class="question">
+        <label for="option3" style="font-size: 100px"><input type="checkbox" id="option3" name="options" value="Розовое вино/шампанское"> Розовое вино/шампанское</label>
+</div>
+    <div class="question">
+        <label for="option4" style="font-size: 100px"><input type="checkbox" id="option4" name="options" value="Красное вино"> Красное вино</label>
+</div>
+    <div class="question">
+        <label for="option5" style="font-size: 100px"><input type="checkbox" id="option5" name="options" value="Коньяк"> Коньяк</label>
+</div>
+    <div class="question">
+        <label for="option6" style="font-size: 100px"><input type="checkbox" id="option6" name="options" value="Водка"> Водка</label>
+</div>
+    <div class="question">
+    <label for="option7" style="font-size: 100px"><input type="checkbox" id="option7" name="options" value="Виски"> Виски</label>
+</div>
+    <div class="question">
+        <label for="option8" style="font-size: 100px"><input type="checkbox" id="option8" name="options" value="Компотик"> Мне компотик, я ЗОЖ</label>
+</div>
+    <input type="submit" value="Отправить" style="font-family: Alexander ,serif;">
+    <br>
+    <br>
+</form>
+
+        <script>
+
+            const quests = document.querySelectorAll('.quest');
+
+            quests.forEach(quest => {
+                const radioButtons = quest.querySelectorAll('input[type="radio"]');
+                const labels = quest.querySelectorAll('label');
+
+                radioButtons.forEach(radioButton => {
+                    radioButton.addEventListener('change', () => {
+                        labels.forEach(label => {
+                            if (radioButton.id === 'presence1') {
+                                document.getElementById("quest1").style.backgroundColor = '#f0ded0';
+                                document.getElementById("quest2").style.backgroundColor = '';
+                                document.getElementById("quest3").style.backgroundColor = '';
+                                document.getElementById("quest1").style.color = 'black';
+                                document.getElementById("quest2").style.color = '';
+                                document.getElementById("quest3").style.color = '';
+                            }
+
+                            if (radioButton.id === "presence2") {
+                                document.getElementById("quest1").style.backgroundColor = '';
+                                document.getElementById("quest2").style.backgroundColor = '#f0ded0';
+                                document.getElementById("quest3").style.backgroundColor = '';
+                                document.getElementById("quest1").style.color = '';
+                                document.getElementById("quest2").style.color = 'black';
+                                document.getElementById("quest3").style.color = '';
+                            }
+                            else if (radioButton.id === "presence3"){
+                                document.getElementById("quest1").style.backgroundColor = '';
+                                document.getElementById("quest2").style.backgroundColor = '';
+                                document.getElementById("quest3").style.backgroundColor = '#f0ded0';
+                                document.getElementById("quest1").style.color = '';
+                                document.getElementById("quest2").style.color = '';
+                                document.getElementById("quest3").style.color = 'black';
+                            }
+                        });
+                    });
+                });
+            });
+
+
+            const questions = document.querySelectorAll('.question');
+
+            questions.forEach(question => {
+                const checkbox = question.querySelector('input[type="checkbox"]');
+                const label = question.querySelector('label');
+
+                checkbox.addEventListener('change', () => {
+                    if (checkbox.checked) {
+                        question.style.backgroundColor = '#f0ded0';
+                        label.style.color = 'black';
+                    } else {
+                        question.style.backgroundColor = '';
+                        label.style.color = '';
+                    }
+                });
+            });
+        </script>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script>
+            // document.addEventListener("DOMContentLoaded", function() {
+            //     var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy"));
+            //
+            //     if ("IntersectionObserver" in window) {
+            //         var lazyVideoObserver = new IntersectionObserver(function(entries, observer) {
+            //             entries.forEach(function(video) {
+            //                 if (video.isIntersecting) {
+            //                     for (var source in video.target.children) {
+            //                         var videoSource = video.target.children[source];
+            //                         if (typeof videoSource.tagName === "string" && videoSource.tagName === "SOURCE") {
+            //                             videoSource.src = videoSource.dataset.src;
+            //                         }
+            //                     }
+            //
+            //                     video.target.load();
+            //                     video.target.classList.remove("lazy");
+            //                     lazyVideoObserver.unobserve(video.target);
+            //                 }
+            //             });
+            //         });
+            //
+            //         lazyVideos.forEach(function(lazyVideo) {
+            //             lazyVideoObserver.observe(lazyVideo);
+            //         });
+            //     }
+            // });
+        </script>
+
+
+<script type="text/javascript">
+
+
+    const form = document.getElementById('survey-form');
+
+    const CHAT_ID = "-1001826284527";
+    const URI_API = 'https://api.telegram.org/bot799604842:AAHnQSUGIui4pUP-PO4wBtSkYNCdxmWYc4E/sendMessage';
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const name = document.getElementById('name').value;
+
+        const selectedPresence = Array.from(document.querySelectorAll('input[name="presence"]:checked')).map(option => option.value);
+
+        const selectedOptions = Array.from(document.querySelectorAll('input[name="options"]:checked')).map(option => option.value);
+
+        const surveyResults = {
+            'Имя': name,
+            'Присутствие': selectedPresence.join(', '),
+            'Выбранные опции': selectedOptions.join(', ')
+        };
+
+        sendResultsToTelegram(surveyResults);
+        form.reset();
+    });
+
+    async function sendResultsToTelegram(results) {
+        try {
+
+            let message = 'Новый гость:\n';
+            for (let [question, answer] of Object.entries(results)) {
+                message += `${question}: ${answer}\n`;
+            }
+
+            axios.post(URI_API,{
+                chat_id: CHAT_ID,
+                text: message
+            });
+
+
+            console.log('Результаты опроса успешно отправлены в Телеграм.');
+            alert("Сообщение отправлено");
+        } catch (error) {
+            console.error('Ошибка при отправке результатов опроса в Телеграм:', error);
+        }
+    }
+</script>
+</body>
+</html>
