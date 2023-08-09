@@ -2,8 +2,6 @@
 :
 
 Server.txt,5\8\581ecd45f6e1270195d1fa1be50d62e3e1505a3a
-B
-image/IMG_0669.ARW,2\2\22188858fda5bf79f88ef9d5a58f0dc6fc1e5484
 <
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 :
@@ -13,3 +11,5 @@ B
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
 >
 Invitation.iml,4\1\41c0388f1d3dfd2710dc8fe71df285dd37fe8c57
+B
+image/IMG_0669.ARW,2\2\22188858fda5bf79f88ef9d5a58f0dc6fc1e5484
